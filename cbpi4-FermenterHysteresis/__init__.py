@@ -47,7 +47,9 @@ class FermenterAutostart(CBPiExtension):
              Property.Number(label="CoolerOffsetOn", configurable=True, description="Offset as decimal number when the cooler is switched on. Should be greater then 'Cooler Offset OFF'. For example a value of 2 switches on the heater if the current temperature is 2 degrees below the target temperature"),
              Property.Number(label="CoolerOffsetOff", configurable=True, description="Offset as decimal number when the cooler is switched off. Should be smaller then 'Cooler Offset ON'. For example a value of 1 switches off the heater if the current temperature is 1 degree below the target temperature"),
              Property.Select(label="AutoStart", options=["Yes","No"],description="Autostart Fermenter on cbpi start"),
-             Property.Number(label="TargetTemp", configurable=True, description="Fermenter Target Temp")])
+             Property.Text(label="BrewName", configurable=True,description="Name of your Beer"),
+             Property.Number(label="TargetTemp", configurable=True, description="Fermenter Target Temp"),
+             Property.Sensor(label="sensor2",description="Optional Sensor (e.g. iSpindle)")])
 
 class FermenterHysteresis(CBPiKettleLogic):
     
