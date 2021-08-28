@@ -27,4 +27,5 @@ Only drawback is that you cannot define different temperatures and times. Theref
 
 - Changelog:
 
+	- 28.08.21 (0.0.2): Cooler and Heater are now optional, fix descriptions
 	- 11.06.21 (0.0.1): Initial Release
