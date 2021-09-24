@@ -22,9 +22,11 @@ Only drawback is that you cannot define different temperatures and times. Theref
 
 - Software installation:
 
-	- Currently only via repo
+	- sudo pip3 install cbpi4-FermenterHysteresis
+	- or install from repo: sudo pip3 install https://github.com/avollkopf/cbpi4-FermenterHysteresis/archive/main.zip 
 	- cbpi add cbpi4-FermenterHysteresis
 
 - Changelog:
 
+	- 28.08.21 (0.0.2): Cooler and Heater are now optional, fix descriptions
 	- 11.06.21 (0.0.1): Initial Release
