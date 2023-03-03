@@ -1,3 +1,7 @@
+# NOT REQUIRED ANYMORE -> FERMENTATION IS INTEGRATED WITH CBPI4 
+
+## ARCHIVED
+
 # Craftbeerpi4 Plugin for simple Fermenter Logic (Hysteresis) 
 
 As long as femrentation is not yet integrated with CBPi4, the user can define a kettle as fermenter.
